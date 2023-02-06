@@ -10,3 +10,6 @@ def home(request):
 
 def record_audio(request):
     return render(request,'started/includes/record_audio.html')    
+
+def new_rec(request):
+    return render(request,'started/includes/new_rec.html')
